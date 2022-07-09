@@ -7,7 +7,7 @@ public class shape {
 }
 class Triangle extends shape{
     public void area(int l,int b){
-        System.out.println((0.5)*l*b);
+        System.out.println("child ");
     }
 }
 class Circle extends shape{
@@ -18,10 +18,8 @@ class Circle extends shape{
 
 class Main{
     public static void main(String[] args){
-        Triangle s1 = new Triangle();
-        s1.area(2,2);
-        Circle c1 = new Circle();
-        c1.area(2);
+        Triangle t1 = new Triangle();
+        t1.area(2,2);
     }
 }
 
