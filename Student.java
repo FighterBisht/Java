@@ -20,5 +20,10 @@ public class Student{
         h2.name = "Sushil";
         h2.age = 21;
         h2.getInfo();
+
+        Hello h3 = new Hello();
+        h3.name = "karan";
+        h3.age = 18;
+        h3.getInfo();
     }
 }
