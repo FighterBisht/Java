@@ -15,9 +15,9 @@ class hello {
 public class Account{
     public static void main(String args[]){
         hello a1 = new hello();
+        a1.email = "abc@gmail.com";
         a1.name = "sushil";
         a1.setPassword("abcd");
-        a1.email = "abc@gmail.com";
     }
 }
 
