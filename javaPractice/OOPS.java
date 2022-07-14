@@ -24,6 +24,8 @@ public class OOPS {
     public static void main(String args[]){
         Horse horse = new Horse();
         horse.walk();
+        Animal animal = new Animal();
+        animal.walk();
     }
     
     
